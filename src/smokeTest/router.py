@@ -8,4 +8,4 @@ class ResponseBody(BaseModel):
 
 @router.get("/hello-world")
 def prompt() -> ResponseBody:
-    return {"message": "Hello, World!"}
+    return {"message": "Hello, World! 🚀"}
